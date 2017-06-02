@@ -20,4 +20,4 @@ netsh advfirewall set allprofiles state on
 <pre><code>
 Import-Module servermanager
 Add-WindowsFeature telnet-client
-</code>i</pre>
+</code></pre>
