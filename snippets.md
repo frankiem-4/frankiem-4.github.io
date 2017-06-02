@@ -17,7 +17,7 @@ netsh advfirewall set allprofiles state on
 
 
 ### Install telnet client from POSH
-<code>
+<pre><code>
 Import-Module servermanager
 Add-WindowsFeature telnet-client
-</code>
+</code>i</pre>
