@@ -8,11 +8,7 @@ tags:
 
 Short story then onto the goods.
 
-I was setting up a user (prior OS X user) with a new laptop. For whatever reason the laptop was setup to BIOS instead of UEFI when 
-I install Windows 10 Pro. It installed and created the Master Boot Record. So when I went to encrypt the drive using Bitlocker, I 
-found that it wouldn't work because UEFI is required for secure boot to work. I did a little digging and found that in 
-Windows 10 build 1703 a tool called MBR2GPT was available. Usually these things are difficult, but I didn't want to have to reinstall
-since the user was already completely setup and customized. Turns out it was pretty easy:
+I was setting up a user (prior OS X user) with a new laptop. For whatever reason the laptop was setup to BIOS instead of UEFI when I install Windows 10 Pro. It installed and created the Master Boot Record. So when I went to encrypt the drive using Bitlocker, I found that it wouldn't work because UEFI is required for secure boot to work. I did a little digging and found that in Windows 10 build 1703 a tool called MBR2GPT was available. Usually these things are difficult, but I didn't want to have to reinstall since the user was already completely setup and customized. Turns out it was pretty easy:
 
 *Highly suggest backing up any important files just incase this doesn't go well*
 From an elevated CMD.exe
