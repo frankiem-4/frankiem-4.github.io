@@ -1,9 +1,27 @@
-name: Solar Theme
-url: http://example.org
-description: A stylish blog using the Solarized color palette
+# Plugins
+gems:             ['jekyll-paginate', 'jekyll-gist', 'jekyll-github-metadata']
 
-permalink: /:year/:month/:day/:title/
-paginate: 10
+# Dependencies
+highlighter:      rouge
 
-gems: [jekyll-paginate]
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            BlackDoc
+tagline:          Black Theme for Jekyll
+description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
+url:              https://github.com/karloespiritu/blackdoc
+baseurl:          /
+
+author:
+  name:           'Karlo Espiritu'
+  url:            https://twitter.com/karloespiritu
+
+paginate:         5
+
+# Custom vars
+version:          1.0.1
+
+github:
+  repo:           https://github.com/karloespiritu/blackdoc
