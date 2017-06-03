@@ -55,7 +55,7 @@ Where:
          - Allows the tool to be used from the full Windows
            environment. By default, this tool can only be used
            from the Windows Preinstallation Environment.
-</pre></code>
+</code></pre>
 
 More information can be found here:
 https://docs.microsoft.com/en-us/windows/deployment/mbr-to-gpt
