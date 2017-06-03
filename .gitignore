@@ -1,4 +1,7 @@
-_site
-.sass-cache
-Gemfile.lock
-*.gem
+.DS_store
+.sass-cache/
+*.scssc
+/stylesheets/.sass-cache/
+_site/
+_cache/*
+css/

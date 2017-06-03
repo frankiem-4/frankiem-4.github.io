@@ -1,5 +1,4 @@
-title: 
-description: 
-show_downloads: false 
-google_analytics:
-theme: 
+pygments: true
+permalink: /post/:title
+exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
+paginate: 4

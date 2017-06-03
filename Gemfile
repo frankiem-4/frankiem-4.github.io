@@ -1,3 +1,4 @@
-source 'https://rubygems.org'
+source :rubygems
 
-gemspec
+gem "jekyll", "~> 0.11.2"
+gem "neat", "~> 1.0.0"
