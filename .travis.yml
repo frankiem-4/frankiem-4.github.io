@@ -1,7 +1,9 @@
 language: ruby
-cache: bundler
-sudo: false
-rvm: 2.2
-
-install: script/bootstrap
-script: script/cibuild
+rvm:
+  - 2.1
+script:
+  - bundle exec jekyll build
+#  - bundle exec htmlproof ./_site --only-4xx --check-favicon --check-html --disable-external
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer

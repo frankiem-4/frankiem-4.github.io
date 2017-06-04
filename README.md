@@ -1,124 +1,64 @@
-# BlackDoc
+# Holo Alfa Jekyll theme [![Build Status](https://travis-ci.org/steinvc/holo-alfa.svg?branch=master)](https://travis-ci.org/steinvc/holo-alfa) #
 
-BlackDoc is a two-column [Jekyll](http://jekyllrb.com) theme that's ideal for websites that require a master-detail layout for viewing of content. It's based on [Poole](http://getpoole.com), the Jekyll butler, and the [Hyde](http://hyde.getpoole.com) theme.
+![Screenshot](http://i.imgur.com/Gi46aag.jpg)
 
-![BlackDoc screenshot](https://raw.githubusercontent.com/karloespiritu/blackdoc/master/public/images/blackdoc-screenshot.jpg)
+Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. Created for free and fun by Stijn. Also works great as a base to build your own theme on.
 
-## Contents
+See it in action: http://steinvc.github.io/holo-alfa/.
 
-- [Features](#features)
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Scrolling sidebar content](#scrolling-sidebar-content)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
-- [Thanks](#thanks)
+## Feature highlights ##
 
-## Features
+* Mobile first design
+* Extensive content styling
+* Responsive video's (using [FitVids.JS](http://fitvidsjs.com/))
+* Support for authors and guest authors
+* Read time on articles
+* Disqus comments
+* Language localization
+* Automatic [og metadata](http://ogp.me/)
+* Automatic archive page (without plugins)
+* Automatic sitemap en RSS feed
+* Contact page (with working email form)
+* A lot of (optional) customization options (all in `_config.yml`)
 
-* Now compatible with Jekyll 3.x
-* Two-column layout with scrolling sidebar content
-* Ideal for websites that require  master-detail view of content
+And much more.
 
-## Quick Start
+## Getting started ##
 
-Download the zip file or clone the BlackDoc repo.
+If you're new to Jekyll, check out http://jekyllrb.com/ and read up on Jekyll. It's worth it.
 
-```bash
-$ git clone git@github.com:karloespiritu/BlackDoc.git mysite
-$ cd mysite
-```
-Make sure you have Ruby 2.0.0 or higher installed.
+* [Another great resource to learn about Jekyll](http://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
+* [Github's guide to using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/)
 
-```bash
-$ ruby --version
-ruby 2.x.x
-```
+### Installing ##
 
-Install bundler and install dependencies.
+As simple as forking the repository, and then clone it so you can edit the files locally.
 
-```bash
-$ gem install bundler
-$ bundle install
-```
+### Configuration ###
 
-Build and run your BlackDoc site.
+Edit `_config.yml`!
 
-```bash
-$ jekyll serve
-```
+You can find `_config.yml` in your site's root directory. This configuration file contains some necessary settings and some optional customization settings. **All settings are explained in `_config.yml` itself.** Also make sure to use the developement configuration file (`_config_dev.yml`) for running your site locally. This way you don't get your URLs mixed up.
 
-## Usage
+There are some customizations that can't be done in `_config.yml`. These include:
 
-BlackDoc is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
+* Editing the About, Contact and Archive page.
+* Adding or removing pages from the navigation. This can be done in `\_includes\navigation.html`.
+* The "thanks" page after a message has been send through the contact page: `thanks.md`
+* The gradient on cover images: `\_includes\gradient.css` (this is explained in `_config.yml`).
 
+Also make sure to replace the placeholder favicons and the `\img\og-image.jpg` with your own.
 
-## Options
+### Start the Jekyll server ###
 
-BlackDoc includes some customizable options, typically applied via classes on the `<body>` element.
+You can learn how to do this by reading [this](https://help.github.com/articles/using-jekyll-with-pages/).
 
+> Tip: to run your site locally with `_config_dev.yml` as configuration file, use this command at the root of your site `bundle exec jekyll serve --config _config_dev.yml`.
 
-### Sidebar menu
+When everything is OK, your site should now be available at `http://localhost:4000`.
 
-Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
+That's it.
 
-```
 ---
-layout: page
-title: About
----
-```
 
-**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
-
-
-### Scrolling sidebar content
-
-By default, BlackDoc includes a scrolling sidebar that will display your markdown files in alphabetical order.
-
-### Themes
-
-BlackDoc ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
-
-To use a theme, add anyone of the available theme classes to the `<body>` element in the `default.html` layout, like so:
-
-```html
-<body class="theme-base-08">
-  ...
-</body>
-```
-
-To create your own theme, look to the Themes section of [included CSS file](https://github.com/karloespiritu/blackdoc/blob/master/public/css/blackdoc.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
-
-### Reverse layout
-
-![BlackDoc reverse screenshot](https://raw.githubusercontent.com/karloespiritu/BlackDoc/master/public/images/reverse-screenshot.png)
-
-BlackDoc's page orientation can be reversed with a single class.
-
-```html
-<body class="layout-reverse">
-  ...
-</body>
-```
-
-## Author
-
-**Karlo Espiritu**
-- <https://github.com/karloespiritu>
-- <https://twitter.com/karloespiritu>
-
-## License
-
-Open sourced under the [MIT license](LICENSE.md).
-
-\m/
-
-## Thanks
-
-Thanks to [@mdo](https://twitter.com/mdo) for creating the awesome [Poole](http://getpoole.com) project.
+[MIT license](http://opensource.org/licenses/MIT)
