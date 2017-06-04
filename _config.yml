@@ -1,144 +1,127 @@
+# --- General options --- #
 
-# The name of your website.
-name: Holo Alfa
+# url is the full website URL
+# baseurl is the website's URL without the hostname
 
-description:
+# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
+url: "http://username.github.io"
+baseurl: ""
 
-  # Description of your site. This will show up in google.
-  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
+# If you are building a GitHub project page then use these settings:
+#url: "http://username.github.io/projectname"
+#baseurl: "/projectname"
 
-  # Description of your site. This will show up on the front page.
-  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
+# Of course don't forget to change the username and projectname to YOUR username and project
 
+# Name of website
+title: My website
+
+# Short description of your site
+description: A virtual proof that name is awesome!
+
+# --- Navigation bar options --- #
+
+# List of links in the navigation bar
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - GitHub Pages: "https://pages.github.com/"
+  Author's home: "http://deanattali.com"
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/img/avatar-icon.png"
+
+# If you want to have an image logo in the top-left corner instead of the title text,
+# then specify the following parameter
+# title-img: /path/to/image
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Dr. Jekyll # Change this!
+  name: Some Person
+  email: "youremail@domain.com"
+  facebook: yourname  # eg. daattali
+  github: yourname    # eg. daattali
+  twitter: yourname   # eg. daattali
+  reddit: yourname    # eg. daattali
+  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
+  linkedin: yourname  # eg. daattali
+  xing: yourname      # eg. daattali
+  stackoverflow: yourlink  # eg. "3943160/daattali"
+  snapchat: yourname  # eg. daattali
+  instagram: yourname # eg. daattali
+  youtube: yourlink   # eg. user/daattali or channel/daattali
+  spotify: yourname   # eg. daattali
+  telephone: yourphone   # eg. +14159998888
 
-  # Necessary for contact page
-  email: your@email.com # Change this!
+# Select which links to show in the footer
+footer-links-active:
+  rss: false
+  facebook: true
+  email: true
+  twitter: true
+  google-plus: false
+  github: true
+  reddit: false
+  linkedin: false
+  xing: false
+  stackoverflow: false
+  snapchat: false
+  instagram: false
+  youtube: false
+  spotify: false
+  telephone: false
 
-  # Optional text (html) to display after author name. Leave empty if you don't
-  # want it.
-  info:
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  google: false
+  linkedin: true
 
-url: http://steinvc.github.io
-baseurl: "/holo-alfa"
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
-# language attribute in <html> element.
-lang: en
+# --- Misc --- #
+# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
+#disqus: ""
 
-# FROM THIS POINT ON EVERYTHING IS OPTIONAL
+# Fill in your Google Analytics ID to track your website using GA
+#google_analytics: ""
 
-##############
-# APPEREANCE #
-##############
+# Google Tag Manager ID
+#gtm: ""
 
-# If you want to show the subtitle anywhere else than the front page, use
-# {% include subtitle.html %} to include it anywhere you want.
-show-subtitle: true
-display-social-icons: false
+# Facebook App ID
+# fb_app_id: ""
 
-footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
+# Excerpt Word Length
+# Truncates the excerpt to the specified number of words on the index page
+excerpt_length: 50
 
-# Preferably 64px in height. Leave empty = disable.
-logo-image: # /img/logo.png
+# Character used to separate site title and description in HTML document title
+# and RSS feed title
+title-separator: "-"
 
-# Toolbar color for Chrome on Android.
-theme-color-attr: "#00f0ff"
+# --- Don't need to touch anything below here (but you can if you want) --- #
 
-# Color of Microsoft live Tile.
-ms-tile-color: "#00f0ff"
-
-# Color used throughout the theme. Format: R, G, B.
-theme-color: 0, 240, 255 # Original: 0, 240, 255
-
-# Text color used throughout the theme. Format: R, G, B.
-text-color: 0, 0, 0 # Original: 0, 0, 0
-
-# Background color used throughout the theme. Format: R, G, B.
-# Note: if you change the background color AND you use cover images, you should
-#       also change the CSS gradient in "_includes\gradient.css" to match the
-#       background color. Edit and copy it from here:
-#       http://www.colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100
-background-color: 255, 255, 255 # Original: 255, 255, 255
-
-display-author-post-page: true
-display-author-front-page: true
-
-# http://alanwsmith.com/jekyll-liquid-date-formatting-examples
-date_format: "%b %-d, %Y"
-
-# Minimal screen-width after which the navigation will change position from
-# vertical to horizontal.
-nav-breaking-point: 520px
-
-# Number of posts on each page.
-paginate: 3
-
-# Display links for the previous and next post on post pages.
-display-next-prev-post: false
-
-# Leave empty if you don't want comments on post pages.
-disqus-shortname:
-
-
-################
-# SOCIAL ICONS #
-################
-
-# Use a complete url here, including http:// and such. Requiring just usernames
-# has been considered, but this is way more customizable.
-twitter:
-youtube:
-instagram:
-tumblr:
-facebook:
-google-plus:
-reddit:
-soundcloud:
-medium:
-linkedin:
-github:
-behance:
-codepen:
-dribbble:
-trello:
-stack-overflow:
-bitcoin:
-paypal:
-
-
-#####################
-# CUSTOMIZABLE TEXT #
-#####################
-
-# Useful for translating into other languages.
-
-var_on_the_web: On the web
-var_read: Read # Text after each post summary on the homepage.
-var_newer: Newer
-var_older: Older
-var_next_post: Next post
-var_previous_post: Previous post
-var_less_than_a_minute_read: Less than a minute read
-var_min_read: min read # Text after reading time. Example: 5 min read.
-var_post_by: Post by
-var_guest_post_by: Guest post by
-var_your_email: Your email
-var_your_message: Your message
-
-
-##################
-# BUILD SETTINGS #
-##################
-
-# You don't have to change these.
-
-exclude: [vendor]
+# Output options (more information on Jekyll's site)
+timezone: "America/Vancouver"
+markdown: kramdown
 highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
 kramdown:
   input: GFM
-paginate_path: "/page-:num/"
-permalink: pretty
+
+# Default YAML values (more information on Jekyll's site)
 defaults:
   -
     scope:
@@ -146,4 +129,83 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      excerpt_separator: "<!--more-->"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+# Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
+link-tags: false
+
+# Exclude these files from production site
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Vagrantfile
+
+# prose.io config
+prose:
+  rooturl: '_posts'
+  media: 'img'
+  ignore:
+    - 404.html
+    - LICENSE
+    - feed.xml
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /img
+    - /js
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          placeholder: "A description of your post."
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "Enter date of post."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          help: "Add a thumbnail image to your post."
+          placeholder: "Thumbnail"
+          alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          help: "Check to publish post, uncheck to hide."
+
+gems:
+  - jekyll-paginate
+
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189
