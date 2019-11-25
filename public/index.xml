@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frankie M</title>
+    <link>https://frankiem.io/</link>
+    <description>Recent content on Frankie M</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Nov 2019 12:59:51 -0500</lastBuildDate>
+    
+	<atom:link href="https://frankiem.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automation, Scripts, and more</title>
+      <link>https://frankiem.io/automation-scripts-and-more/</link>
+      <pubDate>Sun, 24 Nov 2019 12:59:51 -0500</pubDate>
+      
+      <guid>https://frankiem.io/automation-scripts-and-more/</guid>
+      <description> Too much to do With any luck I&amp;rsquo;ll stay motivated to supply automaton, scripts, and more. I will mostly use this for my own documentation with the added benefit of it being public.
+ FM4  </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://frankiem.io/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankiem.io/about/</guid>
+      <description>This Theme Thanks for visiting this theme demo. If you&amp;rsquo;re interested, checkout my other stuff over at https://zwbetz.com
+Hugo Hugo is the world’s fastest framework for building websites. It is written in Go.
+It makes use of a variety of open source projects including:
+ https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.
+ Favicon made by Freepik, from Flaticon, licensed by CC 3.0.</description>
+    </item>
+    
+  </channel>
+</rss>

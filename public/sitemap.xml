@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://frankiem.io/automation-scripts-and-more/</loc>
+    <lastmod>2019-11-24T12:59:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frankiem.io/</loc>
+    <lastmod>2019-11-24T12:59:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frankiem.io/post/</loc>
+    <lastmod>2019-11-24T12:59:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frankiem.io/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://frankiem.io/tags/</loc>
+  </url>
+  
+</urlset>

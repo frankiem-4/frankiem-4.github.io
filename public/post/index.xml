@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Frankie M</title>
+    <link>https://frankiem.io/post/</link>
+    <description>Recent content in Posts on Frankie M</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Nov 2019 12:59:51 -0500</lastBuildDate>
+    
+	<atom:link href="https://frankiem.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automation, Scripts, and more</title>
+      <link>https://frankiem.io/automation-scripts-and-more/</link>
+      <pubDate>Sun, 24 Nov 2019 12:59:51 -0500</pubDate>
+      
+      <guid>https://frankiem.io/automation-scripts-and-more/</guid>
+      <description> Too much to do With any luck I&amp;rsquo;ll stay motivated to supply automaton, scripts, and more. I will mostly use this for my own documentation with the added benefit of it being public.
+ FM4  </description>
+    </item>
+    
+  </channel>
+</rss>
